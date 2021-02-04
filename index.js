@@ -26,3 +26,5 @@ mongoose.connect(CONNECTION_URL, {useNewUrlParser : true, useUnifiedTopology : t
     .catch(err => console.log(err.message));
 
 mongoose.set('useFindAndModify', false);
+
+// https://www.youtube.com/watch?v=LKlO8vLvUao&t=0s
